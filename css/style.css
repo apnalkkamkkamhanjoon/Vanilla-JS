@@ -54,7 +54,7 @@ img {
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 20px;
-    transform: translateX(-30%);
+    transform: translateX(-35%);
 }
 input{
     border: none;
@@ -69,4 +69,13 @@ button{
     border: none;
     outline: none;
     background-color: transparent;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#weather{
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
