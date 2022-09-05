@@ -14,9 +14,8 @@
 </head>
 <body>
     <form id="login-form" class="hidden">
-    <input id="Name" required maxlength="15" type="text" placeholder="What is your name"/>
+    <input id="Name" required maxlength="15" type="stext" placeholder="What is your name"/>
     <button id="Log-in">Log In</button>
-    <button class="material-icons">logout</button>
     </form>
     <h2 id="clock">00:00:00</h2>
     <h1 id="greeting" class="hidden"></h1>
@@ -38,10 +37,5 @@
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
-    <Router>
-  <Routes>
-    <Route path="/desa" element={<Home />} />
-  </Routes>
-</Router>
 </body>
 </html>
